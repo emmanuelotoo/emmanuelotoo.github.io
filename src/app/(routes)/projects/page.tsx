@@ -12,6 +12,12 @@ const projects = [
     description: "send money on whatsapp",
     href: "https://github.com/emmanuelotoo/easy-send",
   },
+  {
+    title: "1957 removals",
+    description: "moving in the uk, one van at a time",
+    href: "https://1957removals.eotoo218.workers.dev/",
+    label: "website",
+  },
 ];
 
 export default function Projects() {
@@ -25,7 +31,7 @@ export default function Projects() {
             title={project.title}
             subtitle={project.description}
             externalHref={project.href}
-            externalLabel="github"
+            externalLabel={"label" in project ? project.label : "github"}
           />
         ))}
       </div>
