@@ -18,6 +18,12 @@ const projects = [
     href: "https://1957removals.eotoo218.workers.dev/",
     label: "website",
   },
+  {
+    title: "ali stores",
+    description: "shop in the us, ship to ghana",
+    href: "https://ali-stores.vercel.app/",
+    label: "website",
+  },
 ];
 
 export default function Projects() {
