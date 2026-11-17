@@ -24,6 +24,12 @@ const projects = [
     href: "https://ali-stores.vercel.app/",
     label: "website",
   },
+  {
+    title: "celebrate right",
+    description: "gifting concierge for accra and the diaspora",
+    href: "https://celebrateright.com",
+    label: "website",
+  },
 ];
 
 export default function Projects() {
