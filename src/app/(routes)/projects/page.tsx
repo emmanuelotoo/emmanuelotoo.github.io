@@ -30,6 +30,12 @@ const projects = [
     href: "https://celebrateright.com",
     label: "website",
   },
+  {
+    title: "blockyard studio",
+    description: "roblox meets minecraft",
+    href: "https://blockyard-studio.vercel.app/",
+    label: "website",
+  },
 ];
 
 export default function Projects() {
